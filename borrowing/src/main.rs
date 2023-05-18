@@ -27,7 +27,6 @@ fn main() {
 
     let r3: &mut String = &mut s; // no problem
     println!("{}", r3);
-    println!("{} and {}", r1,  r2);
     // The Rules of references 
     //1: you can have any num of mutable references or only one immutable ref
     //2: Ref scope ends in the last time it has been used
@@ -37,3 +36,4 @@ fn main() {
 fn get_length(s: &String) -> usize {
     s.len()
 }
+
