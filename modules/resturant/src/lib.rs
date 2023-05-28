@@ -17,7 +17,7 @@
 /// Modules can contain other modules, structs,....
 /// 
 /// 
-pub mod front_of_house; 
+pub mod front_of_house; //here is the definition of the module written in a separate file in the same scoop
 mod back_of_house {
     //adding struct to the module
     //to be able to access the struct we need to make is public
