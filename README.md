@@ -19,3 +19,5 @@ just another repo containing codes and comments in my journey to be cool and lea
 11. [error handling](error_handling)
 12. [modules](modules)
 13. [testing](testing)
+14. [TCP client](tcp_vlient)
+15. [Mini Redis Rust Clone](rust_redis)
