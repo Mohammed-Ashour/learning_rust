@@ -21,3 +21,4 @@ just another repo containing codes and comments in my journey to be cool and lea
 13. [testing](testing)
 14. [TCP client](tcp_vlient)
 15. [Mini Redis Rust Clone](rust_redis)
+16. [Mini Grep Rust Clone](rust_grep_cli)
