@@ -16,7 +16,7 @@ impl File{
     pub fn search(&self, query: &str) -> Vec<&str> {
         let mut matched_lines = Vec::new();
         for line in self.content.lines(){
-            if line.contains(query) {
+            if line.to_lowercase().contains(query.to_lowercase().as_str()) {
                 matched_lines.push(line);
             }
         }
